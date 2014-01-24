@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprite_enemy</sprite>
+    <sprite>sprites\sprite_player</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background_1</background>
@@ -14,6 +15,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_enemy</object>
+    <object>objects\obj_player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level_1</room>
