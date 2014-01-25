@@ -54,7 +54,7 @@ hitpoints = 100;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_angle = point_direction(x,y,obj_player.x,obj_player.y);
+            <string>/*image_angle = point_direction(x,y,obj_player.x,obj_player.y);*/
 
 mp_potential_step(obj_player.x,obj_player.y,walkingSpeed,true);
 </string>
