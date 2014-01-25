@@ -6,13 +6,15 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprite_enemy_right</sprite>
+    <sprite>sprites\spr_enemy_right</sprite>
+    <sprite>sprites\spr_enemy_left</sprite>
+    <sprite>sprites\spr_enemy_up</sprite>
+    <sprite>sprites\spr_enemy_down</sprite>
     <sprite>sprites\spr_player_right</sprite>
     <sprite>sprites\spr_player_left</sprite>
     <sprite>sprites\spr_player_up</sprite>
     <sprite>sprites\spr_player_down</sprite>
     <sprite>sprites\spr_player_idle</sprite>
-    <sprite>sprites\sprite_enemy_left</sprite>
     <sprite>sprites\wall</sprite>
   </sprites>
   <backgrounds name="background">
