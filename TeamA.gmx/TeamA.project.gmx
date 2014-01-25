@@ -5,12 +5,16 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\sprite_enemy</sprite>
+  </sprites>
   <backgrounds name="background">
     <background>background\background_1</background>
   </backgrounds>
   <paths name="paths"/>
-  <objects name="objects"/>
+  <objects name="objects">
+    <object>objects\obj_enemy</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\Level_1</room>
   </rooms>
