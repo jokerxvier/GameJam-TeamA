@@ -44,11 +44,11 @@
     <font>fonts\font_time</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
     <objects name="level1_enemy">
       <object>objects\obj_enemy_left</object>
       <object>objects\obj_enemy_mid</object>
+      <object>objects\obj_player</object>
     </objects>
     <object>objects\obj_bullet</object>
     <object>objects\obj_timer</object>
