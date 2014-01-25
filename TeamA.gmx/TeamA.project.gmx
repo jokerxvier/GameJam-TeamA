@@ -41,12 +41,12 @@
   </paths>
   <objects name="objects">
     <object>objects\obj_player</object>
-    <object>objects\obj_player_</object>
     <object>objects\obj_wall</object>
     <objects name="level1_enemy">
       <object>objects\obj_enemy_left</object>
       <object>objects\obj_enemy_mid</object>
     </objects>
+    <object>objects\obj_bullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level_1</room>
