@@ -36,7 +36,7 @@ direction = 0;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_enemy">
+    <event eventtype="4" ename="obj_enemy_left">
       <action>
         <libid>1</libid>
         <id>113</id>

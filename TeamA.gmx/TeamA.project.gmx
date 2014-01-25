@@ -6,16 +6,27 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprite_enemy</sprite>
+    <sprite>sprites\sprite_enemy_right</sprite>
     <sprite>sprites\sprite_player</sprite>
+    <sprite>sprites\sprite_enemy_left</sprite>
+    <sprite>sprites\wall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background_1</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <paths name="level1">
+      <path>paths\level1_ai_path1</path>
+      <path>paths\level_ai_path2</path>
+    </paths>
+  </paths>
   <objects name="objects">
-    <object>objects\obj_enemy</object>
     <object>objects\obj_player</object>
+    <object>objects\obj_wall</object>
+    <objects name="level1_enemy">
+      <object>objects\obj_enemy_left</object>
+      <object>objects\obj_enemy_mid</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level_1</room>

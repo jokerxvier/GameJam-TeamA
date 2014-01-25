@@ -36,7 +36,7 @@ direction = 0;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_enemy">
+    <event eventtype="4" ename="obj_enemy_left">
       <action>
         <libid>1</libid>
         <id>113</id>
@@ -69,7 +69,7 @@ direction = 0;
         <arguments>
           <argument>
             <kind>8</kind>
-            <path>level1_ai_path1</path>
+            <path>level_ai_path2</path>
           </argument>
           <argument>
             <kind>0</kind>
