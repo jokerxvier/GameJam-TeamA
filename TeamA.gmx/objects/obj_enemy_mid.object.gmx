@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>speed = 3;
 direction = 0;
+shoot_cooldown =1;   
 </string>
           </argument>
         </arguments>
@@ -49,9 +50,21 @@ direction = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if distance_to_object(obj_player)&lt;64{
-if random(60)&lt;=1{
-instance_create(x,y,obj_bullet);}}
+            <string>shoot_cooldown -= 1;                                 //Lower the shooting cooldown timer
+if (shoot_cooldown &lt; 0) then shoot_cooldown = 0     //Prevents timer from counting down further than 0.
+target_distance = distance_to_object(obj_player);    //Distance to the player from enemy.
+
+if (target_distance &lt; 64)                 //If player within the range of enemy
+{
+//image_angle = point_direction(x,y,obj_player.x,obj_player.y);      //Enemy faces the player.
+    if (shoot_cooldown == 0)                                      //If enemy can shoot (cooldown ready)
+        {
+        bullet = instance_create(x,y,obj_bullet);                  //Create a bullet relative to enemy
+        bullet.direction = point_direction(x,y,obj_player.x,obj_player.y);   //Shoot it towards player
+        bullet.speed = 3;                                           //Give it speed
+        shoot_cooldown = 50;    //Set the new cooldown time between low and high thresholds.
+        }
+}
 </string>
           </argument>
         </arguments>
@@ -94,7 +107,7 @@ instance_create(x,y,obj_bullet);}}
           </argument>
           <argument>
             <kind>0</kind>
-            <string>3</string>
+            <string>2</string>
           </argument>
           <argument>
             <kind>4</kind>
