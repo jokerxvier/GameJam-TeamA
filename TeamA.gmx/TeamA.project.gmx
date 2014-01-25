@@ -29,6 +29,27 @@
     <sprite>sprites\spr_player_possessd_down</sprite>
     <sprite>sprites\spr_player_idle</sprite>
     <sprite>sprites\wall</sprite>
+    <sprite>sprites\spr_wall_top_right</sprite>
+    <sprite>sprites\spr_wall_top_left</sprite>
+    <sprite>sprites\spr_wall_bottom_right</sprite>
+    <sprite>sprites\spr_wall_bottom_left</sprite>
+    <sprite>sprites\spr_wall_leftside_body</sprite>
+    <sprite>sprites\spr_wall_leftside1_body</sprite>
+    <sprite>sprites\spr_wall_leftside2_body</sprite>
+    <sprite>sprites\spr_wall_leftside3_body</sprite>
+    <sprite>sprites\spr_wall_topline</sprite>
+    <sprite>sprites\spr_wall_topline1_body</sprite>
+    <sprite>sprites\spr_wall_topline2_body</sprite>
+    <sprite>sprites\spr_wall_topline3_body</sprite>
+    <sprite>sprites\spr_wall_topline_last</sprite>
+    <sprite>sprites\spr_wall_rightside_body</sprite>
+    <sprite>sprites\spr_wall_rightside1_body</sprite>
+    <sprite>sprites\spr_wall_rightside2_body</sprite>
+    <sprite>sprites\spr_wall_rightside3_body</sprite>
+    <sprite>sprites\spr_wall_topside_body</sprite>
+    <sprite>sprites\spr_wall_topside1_body</sprite>
+    <sprite>sprites\spr_wall_topside2_body</sprite>
+    <sprite>sprites\spr_wall_topside3_body</sprite>
     <sprite>sprites\bullet_effect</sprite>
   </sprites>
   <backgrounds name="background">
@@ -45,6 +66,27 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_wall</object>
+    <object>objects\obj_wall_top_right</object>
+    <object>objects\obj_wall_top_left</object>
+    <object>objects\obj_wall_bottom_right</object>
+    <object>objects\obj_wall_bottom_left</object>
+    <object>objects\obj_wall_leftside_body</object>
+    <object>objects\obj_wall_leftside1_body</object>
+    <object>objects\obj_wall_leftside2_body</object>
+    <object>objects\obj_wall_leftside3_body</object>
+    <object>objects\obj_wall_topline</object>
+    <object>objects\obj_wall_topline1_body</object>
+    <object>objects\obj_wall_topline2_body</object>
+    <object>objects\obj_wall_topline3_body</object>
+    <object>objects\obj_wall_topline_last</object>
+    <object>objects\obj_wall_rightside_body</object>
+    <object>objects\obj_wall_rightside1_body</object>
+    <object>objects\obj_wall_rightside2_body</object>
+    <object>objects\obj_wall_rightside3_body</object>
+    <object>objects\obj_wall_topside_body</object>
+    <object>objects\obj_wall_topside1_body</object>
+    <object>objects\obj_wall_topside2_body</object>
+    <object>objects\obj_wall_topside3_body</object>
     <objects name="level1_enemy">
       <object>objects\obj_enemy_left</object>
       <object>objects\obj_enemy_mid</object>
