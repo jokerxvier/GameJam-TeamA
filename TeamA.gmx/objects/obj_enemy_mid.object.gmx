@@ -106,7 +106,7 @@ if (sapi = 1){
         grid = mp_grid_create(0, 0, room_width/32, room_height/32, 32, 32);
         path = path_add();
         mp_grid_add_instances(grid, parent_wall, 1);
-        mp_grid_path(grid, path, x, y, 352, 64, 1);
+        mp_grid_path(grid, path, x, y, 64, 448, 1);
         path_start(path, 5, "", 1)
         
        /* if (self.x = 352 &amp;&amp; self.y = 64){
