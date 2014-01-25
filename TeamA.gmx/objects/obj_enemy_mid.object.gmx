@@ -51,10 +51,15 @@ shoot_cooldown =1;
           <argument>
             <kind>1</kind>
             <string>shoot_cooldown -= 1;                                 //Lower the shooting cooldown timer
+player_nearest = instance_nearest(x,y,obj_player);
 if (shoot_cooldown &lt; 0) then shoot_cooldown = 0     //Prevents timer from counting down further than 0.
 target_distance = distance_to_object(obj_player);    //Distance to the player from enemy.
 
-if (target_distance &lt; 64)                 //If player within the range of enemy
+
+
+
+if (player_nearest != noone &amp;&amp; target_distance &lt; 64 &amp;&amp; !collision_line(x,y,player_nearest.x,player_nearest.y,obj_wall
+,true,true))                 //If player within the range of enemy
 {
 //image_angle = point_direction(x,y,obj_player.x,obj_player.y);      //Enemy faces the player.
     if (shoot_cooldown == 0)                                      //If enemy can shoot (cooldown ready)
