@@ -22,6 +22,7 @@
   </paths>
   <objects name="objects">
     <object>objects\obj_player</object>
+    <object>objects\obj_player_</object>
     <object>objects\obj_wall</object>
     <objects name="level1_enemy">
       <object>objects\obj_enemy_left</object>
