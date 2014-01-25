@@ -70,6 +70,31 @@ if (player_nearest != noone &amp;&amp; target_distance &lt; 64 &amp;&amp; !colli
         shoot_cooldown = 30;    //Set the new cooldown time between low and high thresholds.
         }
 }
+
+switch round(direction / 45) mod 8 {
+  case 0: 
+    sprite_index = spr_enemy_right; 
+
+    break;
+
+  case 2: 
+    sprite_index = spr_enemy_up; 
+ 
+    break;
+    
+   case 4: 
+    sprite_index = spr_enemy_left; 
+
+
+    break; 
+    
+    case 6: 
+    sprite_index = spr_enemy_down; 
+
+
+    break; 
+
+}
 </string>
           </argument>
         </arguments>
