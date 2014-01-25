@@ -149,8 +149,9 @@
     <object>objects\obj_vines_1</object>
     <object>objects\obj_vines_2</object>
     <objects name="level1_enemy">
-      <object>objects\obj_enemy_left</object>
       <object>objects\obj_enemy_mid</object>
+      <object>objects\obj_enemy_left</object>
+      <object>objects\obj_enemy_right</object>
       <object>objects\obj_player</object>
     </objects>
     <object>objects\obj_bullet</object>

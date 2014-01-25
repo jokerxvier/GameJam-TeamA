@@ -146,22 +146,6 @@ sprite_index = spr_enemy_possessd_up;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_enemy_left">
-      <action>
-        <libid>1</libid>
-        <id>113</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_reverse_xdir</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-    </event>
     <event eventtype="4" ename="obj_wall">
       <action>
         <libid>1</libid>
@@ -437,7 +421,7 @@ sprite_index = spr_enemy_possessd_up;
         <arguments>
           <argument>
             <kind>8</kind>
-            <path>level_ai_path2</path>
+            <path>level1_ai_path1</path>
           </argument>
           <argument>
             <kind>0</kind>
