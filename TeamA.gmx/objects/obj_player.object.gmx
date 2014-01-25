@@ -585,6 +585,20 @@ keyboard_set_map(ord('W'),"");
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>124</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_path_end</functionname>
+        <codestring></codestring>
+        <whoName>obj_enemy_mid</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
     </event>
   </events>
   <PhysicsObject>0</PhysicsObject>
