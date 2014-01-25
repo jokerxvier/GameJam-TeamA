@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>speed = 3;
 direction = 0;
-shoot_cooldown =1;   
+shoot_cooldown =30;   
 </string>
           </argument>
         </arguments>
@@ -67,7 +67,7 @@ if (player_nearest != noone &amp;&amp; target_distance &lt; 64 &amp;&amp; !colli
         bullet = instance_create(x,y,obj_bullet);                  //Create a bullet relative to enemy
         bullet.direction = point_direction(x,y,obj_player.x,obj_player.y);   //Shoot it towards player
         bullet.speed = 3;                                           //Give it speed
-        shoot_cooldown = 50;    //Set the new cooldown time between low and high thresholds.
+        shoot_cooldown = 30;    //Set the new cooldown time between low and high thresholds.
         }
 }
 </string>
