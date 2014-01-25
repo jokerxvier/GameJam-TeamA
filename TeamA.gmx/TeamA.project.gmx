@@ -7,15 +7,28 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_enemy_right</sprite>
+    <sprite>sprites\spr_enemy_shoot_right</sprite>
+    <sprite>sprites\spr_enemy_possessd_right</sprite>
     <sprite>sprites\spr_enemy_left</sprite>
+    <sprite>sprites\spr_enemy_shoot_left</sprite>
+    <sprite>sprites\spr_enemy_possessd_left</sprite>
     <sprite>sprites\spr_enemy_up</sprite>
+    <sprite>sprites\spr_enemy_shoot_up</sprite>
+    <sprite>sprites\spr_enemy_possessd_up</sprite>
     <sprite>sprites\spr_enemy_down</sprite>
+    <sprite>sprites\spr_enemy_shoot_down</sprite>
+    <sprite>sprites\spr_enemy_possessd_down</sprite>
     <sprite>sprites\spr_player_right</sprite>
+    <sprite>sprites\spr_player_possessd_right</sprite>
     <sprite>sprites\spr_player_left</sprite>
+    <sprite>sprites\spr_player_possessd_left</sprite>
     <sprite>sprites\spr_player_up</sprite>
+    <sprite>sprites\spr_player_possessd_up</sprite>
     <sprite>sprites\spr_player_down</sprite>
+    <sprite>sprites\spr_player_possessd_down</sprite>
     <sprite>sprites\spr_player_idle</sprite>
     <sprite>sprites\wall</sprite>
+    <sprite>sprites\bullet_effect</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background_1</background>
