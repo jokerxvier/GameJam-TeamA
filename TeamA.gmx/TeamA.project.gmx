@@ -83,6 +83,9 @@
     <paths name="level1">
       <path>paths\level1_ai_path1</path>
       <path>paths\level_ai_path2</path>
+      <path>paths\level_ai_path3</path>
+      <path>paths\level_ai_path4</path>
+      <path>paths\level_ai_path5</path>
     </paths>
   </paths>
   <fonts name="fonts">
