@@ -40,6 +40,9 @@
       <path>paths\level_ai_path2</path>
     </paths>
   </paths>
+  <fonts name="fonts">
+    <font>fonts\font_time</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
@@ -48,6 +51,7 @@
       <object>objects\obj_enemy_mid</object>
     </objects>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_timer</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level_1</room>
