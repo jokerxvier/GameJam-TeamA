@@ -42,6 +42,10 @@
     <sprite>sprites\spr_wall_topline2_body</sprite>
     <sprite>sprites\spr_wall_topline3_body</sprite>
     <sprite>sprites\spr_wall_topline_last</sprite>
+    <sprite>sprites\spr_wall_bottomline1_body</sprite>
+    <sprite>sprites\spr_wall_bottomline2_body</sprite>
+    <sprite>sprites\spr_wall_bottomline3_body</sprite>
+    <sprite>sprites\spr_wall_bottomline_last</sprite>
     <sprite>sprites\spr_wall_rightside_body</sprite>
     <sprite>sprites\spr_wall_rightside1_body</sprite>
     <sprite>sprites\spr_wall_rightside2_body</sprite>
@@ -54,10 +58,21 @@
     <sprite>sprites\spr_wall_bottomside1_body</sprite>
     <sprite>sprites\spr_wall_bottomside2_body</sprite>
     <sprite>sprites\spr_wall_bottomside3_body</sprite>
+    <sprite>sprites\spr_wall_mid_cor_top_right</sprite>
+    <sprite>sprites\spr_wall_mid_cor_top_left</sprite>
+    <sprite>sprites\spr_wall_mid_cor_bottom_right</sprite>
+    <sprite>sprites\spr_wall_mid_cor_bottom_left</sprite>
+    <sprite>sprites\spr_wall_midcor_top_bottom_right</sprite>
+    <sprite>sprites\spr_wall_midcor_top_bottom_left</sprite>
+    <sprite>sprites\spr_vines</sprite>
+    <sprite>sprites\spr_vines_1</sprite>
+    <sprite>sprites\spr_vines_2</sprite>
     <sprite>sprites\bullet_effect</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background_1</background>
+    <background>background\background_2</background>
+    <background>background\background_3</background>
   </backgrounds>
   <paths name="paths">
     <paths name="level1">
@@ -83,6 +98,10 @@
     <object>objects\obj_wall_topline2_body</object>
     <object>objects\obj_wall_topline3_body</object>
     <object>objects\obj_wall_topline_last</object>
+    <object>objects\obj_wall_bottomline1_body</object>
+    <object>objects\obj_wall_bottomline2_body</object>
+    <object>objects\obj_wall_bottomline3_body</object>
+    <object>objects\obj_wall_bottomline_last</object>
     <object>objects\obj_wall_rightside_body</object>
     <object>objects\obj_wall_rightside1_body</object>
     <object>objects\obj_wall_rightside2_body</object>
@@ -95,6 +114,15 @@
     <object>objects\obj_wall_bottomside1_body</object>
     <object>objects\obj_wall_bottomside2_body</object>
     <object>objects\obj_wall_bottomside3_body</object>
+    <object>objects\obj_wall_mid_cor_top_right</object>
+    <object>objects\obj_wall_mid_cor_top_left</object>
+    <object>objects\obj_wall_mid_cor_bottom_right</object>
+    <object>objects\obj_wall_mid_cor_bottom_left</object>
+    <object>objects\obj_wall_midcor_top_bottom_right</object>
+    <object>objects\obj_wall_midcor_top_bottom_left</object>
+    <object>objects\obj_vines</object>
+    <object>objects\obj_vines_1</object>
+    <object>objects\obj_vines_2</object>
     <objects name="level1_enemy">
       <object>objects\obj_enemy_left</object>
       <object>objects\obj_enemy_mid</object>
