@@ -104,11 +104,11 @@ if (seconds &lt;= 0){
 
 draw_set_color(c_white);
 draw_set_font(font_time);
-draw_text(x, y, 'Timer : ');
+draw_text(x, y,"");
 if seconds&lt;10 //checks how many digits are in seconds so it displays 1 minute 9 seconds as 1:09 instead of 1:9
-draw_text(x+80,y,string(minutes)+":0"+string(seconds));
+draw_text(x+10,y,string(minutes)+":0"+string(seconds));
 else
-draw_text(x+80,y,string(minutes)+":"+string(seconds));
+draw_text(x+10,y,string(minutes)+":"+string(seconds));
 
 </string>
           </argument>
