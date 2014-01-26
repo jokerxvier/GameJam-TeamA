@@ -42,6 +42,11 @@
     <sprite>sprites\spr_wall_topline2_body</sprite>
     <sprite>sprites\spr_wall_topline3_body</sprite>
     <sprite>sprites\spr_wall_topline_last</sprite>
+    <sprite>sprites\spr_wall_leftside_last</sprite>
+    <sprite>sprites\spr_wall_horizontal_body</sprite>
+    <sprite>sprites\spr_wall_horizontal_1_body</sprite>
+    <sprite>sprites\spr_wall_horizontal_2_body</sprite>
+    <sprite>sprites\spr_wall_rightside_last</sprite>
     <sprite>sprites\spr_wall_bottomline1_body</sprite>
     <sprite>sprites\spr_wall_bottomline2_body</sprite>
     <sprite>sprites\spr_wall_bottomline3_body</sprite>
@@ -73,11 +78,17 @@
     <background>background\background_1</background>
     <background>background\background_2</background>
     <background>background\background_3</background>
+    <background>background\Title</background>
+    <background>background\Help_1</background>
+    <background>background\Help_2</background>
   </backgrounds>
   <paths name="paths">
     <paths name="level1">
       <path>paths\level1_ai_path1</path>
       <path>paths\level_ai_path2</path>
+      <path>paths\level_ai_path3</path>
+      <path>paths\level_ai_path4</path>
+      <path>paths\level_ai_path5</path>
     </paths>
   </paths>
   <fonts name="fonts">
@@ -98,6 +109,11 @@
     <object>objects\obj_wall_topline2_body</object>
     <object>objects\obj_wall_topline3_body</object>
     <object>objects\obj_wall_topline_last</object>
+    <object>objects\obj_wall_leftside_last</object>
+    <object>objects\obj_wall_horizontal_body</object>
+    <object>objects\obj_wall_horizontal_1_body</object>
+    <object>objects\obj_wall_horizontal_2_body</object>
+    <object>objects\obj_wall_rightside_last</object>
     <object>objects\obj_wall_bottomline1_body</object>
     <object>objects\obj_wall_bottomline2_body</object>
     <object>objects\obj_wall_bottomline3_body</object>
