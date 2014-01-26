@@ -42,6 +42,11 @@
     <sprite>sprites\spr_wall_topline2_body</sprite>
     <sprite>sprites\spr_wall_topline3_body</sprite>
     <sprite>sprites\spr_wall_topline_last</sprite>
+    <sprite>sprites\spr_wall_leftside_last</sprite>
+    <sprite>sprites\spr_wall_horizontal_body</sprite>
+    <sprite>sprites\spr_wall_horizontal_1_body</sprite>
+    <sprite>sprites\spr_wall_horizontal_2_body</sprite>
+    <sprite>sprites\spr_wall_rightside_last</sprite>
     <sprite>sprites\spr_wall_bottomline1_body</sprite>
     <sprite>sprites\spr_wall_bottomline2_body</sprite>
     <sprite>sprites\spr_wall_bottomline3_body</sprite>
@@ -98,6 +103,11 @@
     <object>objects\obj_wall_topline2_body</object>
     <object>objects\obj_wall_topline3_body</object>
     <object>objects\obj_wall_topline_last</object>
+    <object>objects\obj_wall_leftside_last</object>
+    <object>objects\obj_wall_horizontal_body</object>
+    <object>objects\obj_wall_horizontal_1_body</object>
+    <object>objects\obj_wall_horizontal_2_body</object>
+    <object>objects\obj_wall_rightside_last</object>
     <object>objects\obj_wall_bottomline1_body</object>
     <object>objects\obj_wall_bottomline2_body</object>
     <object>objects\obj_wall_bottomline3_body</object>
