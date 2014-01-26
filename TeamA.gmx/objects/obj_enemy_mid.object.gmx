@@ -28,6 +28,7 @@
             <string>speed = 3;
 direction = 0;
 shoot_cooldown =30;   
+sapi = 0;
 </string>
           </argument>
         </arguments>
@@ -95,6 +96,10 @@ switch round(direction / 45) mod 8 {
     break; 
 
 }
+
+if (sapi = 1){
+     sprite_index = spr_enemy_possessd_down; 
+}
 </string>
           </argument>
         </arguments>
@@ -153,34 +158,6 @@ switch round(direction / 45) mod 8 {
     <event eventtype="10" enumb="49">
       <action>
         <libid>1</libid>
-        <id>541</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_sprite_set</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>5</kind>
-            <sprite>spr_player_possessd_right</sprite>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>1</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>124</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -192,6 +169,27 @@ switch round(direction / 45) mod 8 {
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>sapi = 1;
+</string>
+          </argument>
+        </arguments>
       </action>
     </event>
   </events>
