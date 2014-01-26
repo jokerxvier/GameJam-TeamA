@@ -78,6 +78,9 @@
     <background>background\background_1</background>
     <background>background\background_2</background>
     <background>background\background_3</background>
+    <background>background\Title</background>
+    <background>background\Help_1</background>
+    <background>background\Help_2</background>
   </backgrounds>
   <paths name="paths">
     <paths name="level1">
