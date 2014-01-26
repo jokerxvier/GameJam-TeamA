@@ -50,6 +50,10 @@
     <sprite>sprites\spr_wall_topside1_body</sprite>
     <sprite>sprites\spr_wall_topside2_body</sprite>
     <sprite>sprites\spr_wall_topside3_body</sprite>
+    <sprite>sprites\spr_wall_bottomside_body</sprite>
+    <sprite>sprites\spr_wall_bottomside1_body</sprite>
+    <sprite>sprites\spr_wall_bottomside2_body</sprite>
+    <sprite>sprites\spr_wall_bottomside3_body</sprite>
     <sprite>sprites\bullet_effect</sprite>
   </sprites>
   <backgrounds name="background">
@@ -87,6 +91,10 @@
     <object>objects\obj_wall_topside1_body</object>
     <object>objects\obj_wall_topside2_body</object>
     <object>objects\obj_wall_topside3_body</object>
+    <object>objects\obj_wall_bottomside_body</object>
+    <object>objects\obj_wall_bottomside1_body</object>
+    <object>objects\obj_wall_bottomside2_body</object>
+    <object>objects\obj_wall_bottomside3_body</object>
     <objects name="level1_enemy">
       <object>objects\obj_enemy_left</object>
       <object>objects\obj_enemy_mid</object>
