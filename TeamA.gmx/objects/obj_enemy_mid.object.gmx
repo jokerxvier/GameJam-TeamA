@@ -96,11 +96,29 @@ switch round(direction / 45) mod 8 {
     break; 
 
 }
-
+flag = 0;
 if (sapi = 1){
      sprite_index = spr_enemy_possessd_down; 
      
-     if keyboard_check_pressed(ord('E')) { show_message('E'); }
+     if keyboard_check_pressed(ord('E')) { 
+        sapi = 0;
+        dir = direction;
+        grid = mp_grid_create(0, 0, room_width/32, room_height/32, 32, 32);
+        path = path_add();
+        /*mp_grid_add_instances(grid, obj_wall, 1);*/
+        mp_grid_path(grid, path, x, y, 352, 64, 1);
+        path_start(path, 5, "", 1)
+        
+       /* if (self.x = 352 &amp;&amp; self.y = 64){
+            show_message('start');
+        }*/
+
+     
+       flag = 1;
+
+      }
+      
+      
 }
 
 </string>
