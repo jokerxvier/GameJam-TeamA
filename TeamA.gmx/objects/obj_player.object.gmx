@@ -113,7 +113,7 @@ keyboard_set_map(vk_right,"");
           </argument>
           <argument>
             <kind>0</kind>
-            <string>5</string>
+            <string>10</string>
           </argument>
         </arguments>
       </action>
@@ -167,7 +167,7 @@ keyboard_set_map(vk_right,"");
           </argument>
           <argument>
             <kind>0</kind>
-            <string>5</string>
+            <string>10</string>
           </argument>
         </arguments>
       </action>
@@ -252,7 +252,7 @@ keyboard_set_map(vk_right,"");
           </argument>
           <argument>
             <kind>0</kind>
-            <string>5</string>
+            <string>10</string>
           </argument>
         </arguments>
       </action>
@@ -306,7 +306,7 @@ keyboard_set_map(vk_right,"");
           </argument>
           <argument>
             <kind>0</kind>
-            <string>5</string>
+            <string>10</string>
           </argument>
         </arguments>
       </action>

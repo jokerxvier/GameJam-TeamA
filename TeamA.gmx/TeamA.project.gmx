@@ -73,6 +73,7 @@
     <sprite>sprites\spr_vines_1</sprite>
     <sprite>sprites\spr_vines_2</sprite>
     <sprite>sprites\bullet_effect</sprite>
+    <sprite>sprites\spr_portal</sprite>
     <sprites name="startup">
       <sprite>sprites\spr_startup</sprite>
       <sprite>sprites\spr_help_02</sprite>
@@ -162,7 +163,6 @@
       <object>objects\obj_btn_start</object>
       <object>objects\obj_btn_help</object>
       <object>objects\obj_btn_quitt</object>
-      <object>objects\obj_player_startup</object>
     </objects>
   </objects>
   <rooms name="rooms">
